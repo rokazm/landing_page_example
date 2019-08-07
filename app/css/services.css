@@ -1,0 +1,45 @@
+.service_holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 140px;
+  padding-bottom: 120px;
+}
+.service_card {
+  width: 14%;
+  margin: 0 72px;
+  text-align: center;
+}
+.service_card h4 {
+  color: #000;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-top: 74px;
+  margin-bottom: 44px;
+}
+.service_card p {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.28px;
+}
+.img_serv {
+  height: 76px;
+  line-height: 76px;
+}
+.img_serv img {
+  vertical-align: middle;
+}

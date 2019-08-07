@@ -1,0 +1,41 @@
+.footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #303030;
+  text-align: center;
+  color: #fff;
+}
+.footer h4 {
+  font-family: "Raleway - Extra Bold";
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.48px;
+  margin-top: 20px;
+}
+.logo_footer {
+  margin-top: 52px;
+}
+.gds {
+  margin-top: 18px;
+  margin-bottom: 64px;
+  font-family: "Crimson Text";
+  font-size: 12px;
+  font-style: italic;
+  letter-spacing: 0.24px;
+}
+.icons_footer {
+  font-size: 20px;
+}
+.icons_footer i {
+  display: inline-block;
+  padding: 0 6px;
+}
+.copy_r {
+  margin-top: 38px;
+  padding-bottom: 20px;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.24px;
+}

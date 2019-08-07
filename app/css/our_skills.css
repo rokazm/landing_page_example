@@ -1,0 +1,67 @@
+.bar_dimens {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 0 auto;
+}
+.bckgr_opt {
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.our_skills {
+  height: 715px;
+  max-width: 1600px;
+  text-align: center;
+  background-image: url(../images/our_skills_bg.jpg);
+  background-color: #fff;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.our_skills_holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 204px;
+  margin-bottom: 122px;
+}
+.our_skills_skill {
+  margin: 0 78px;
+}
+.our_skills_skill h4 {
+  margin-top: 56px;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.48px;
+}
+#bar_75 {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 0 auto;
+}
+#bar_90 {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 0 auto;
+}
+#bar_30 {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 0 auto;
+}

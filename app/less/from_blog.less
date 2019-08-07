@@ -1,0 +1,88 @@
+@import "mixins";
+
+.blog {
+    &_holder{
+        margin: 102px 0 120px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &_post {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 260px;
+        height: 380px;
+        position: relative;
+        margin: 0 30px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 3px;
+            right: 3px;
+            bottom: 3px;
+            left: 3px;
+            border: 3px solid #fff;
+        }
+        &_header::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        &_tittle {
+            float: left;
+            margin-left: 20px;
+            margin-top: 42px;
+            color: #ffffff;
+            font-family: "Raleway - Extra Bold";
+            font-size: 18px;
+            font-weight: 800;
+            text-transform: uppercase;            
+            letter-spacing: 0.36px;
+        }
+        &_date {
+            float: right;
+            margin: 24px 26px 0 0;
+            &_numb {
+                font-family: "Raleway - Extra Bold";
+                color: #fff;
+                font-size: 36px;
+                font-weight: 800;
+                text-transform: uppercase;                
+                letter-spacing: 0.72px;
+            }
+            &_month {
+                color: #ffffff;
+                font-family: Raleway;
+                font-size: 14px;
+                font-weight: 300;
+                text-transform: uppercase;                
+                letter-spacing: 0.28px;
+            }
+        }
+        &_caption {
+            margin: 0 20px 30px 20px;
+            color: #fff;
+            font-family: Raleway;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 22px;            
+            letter-spacing: 0.24px;
+        }
+    }
+}
+
+#post_bg {
+	&_1 {
+        .bckgr_opt;
+        background-image: url(../images/post-bg-1.jpg);
+    }
+    &_2 {
+        .bckgr_opt;
+        background-image: url(../images/post-bg-2.jpg);
+    }
+    &_3 {
+        .bckgr_opt;
+        background-image: url(../images/post-bg-3.jpg);
+    }
+}

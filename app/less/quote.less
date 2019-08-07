@@ -1,0 +1,40 @@
+.quote {
+	text-align: center;
+    background-image: url(../images/quote_bg.jpg);
+	background-color: #000;
+	background-size: cover; 
+	background-position: center;
+    background-repeat: no-repeat;
+    blockquote {
+        padding-top: 145px;
+        padding-bottom: 118px;
+        p {
+            color: #fff;
+            font-family: "Crimson Text - Roman";
+            font-size: 34px;
+            font-weight: 400;
+            letter-spacing: 0.68px;
+            &::before {
+                display: inline-block;
+                transform: translate(-20px,-48px);	
+                content:url(../images/top_q_mark.png);
+            }
+            &::after {
+                display: inline-block;
+                transform: translate(20px,48px);
+                content:url(../images/bott_q_mark.png);
+            }
+        }
+        cite {
+            display:block;
+            color: #fff;
+            font-family: Raleway;
+            font-size: 24px;
+            font-weight: 400;
+            letter-spacing: 0.48px;
+            text-align: right;
+            margin-right: 264px;
+            padding-top: 88px;
+        }
+    }
+}

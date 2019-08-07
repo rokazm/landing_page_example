@@ -1,0 +1,63 @@
+.portfolio {
+    &_describe {
+        text-align: center;
+        max-width: 520px;
+        font-family: "CrimsonText-Roman"; /* fonts - AVO */
+        font-size: 24pt;
+        color: #000;
+        padding-top: 56px;
+        margin: 0 auto;
+    }
+    &_nav{
+        padding-top: 50px;
+        padding-bottom: 58px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &_btn {
+            background-color: transparent;
+            border: 2px solid #f4c60b; 
+            color: #000000; 
+            padding: 20px 26px; 
+            font-family: "Raleway-Light"; /* fonts - AVO */
+            font-size: 14pt;
+            text-align: center;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:not(:last-child) {
+                border-right: none; 
+            }
+        }
+    }
+    &_butt {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin: 0 auto;
+    }
+}
+
+.img {
+    &_item {
+        width: 25%;
+        height: 300px;
+        float: left;
+        object-fit: cover;
+        display: none;
+    }
+    &_gall {
+        margin: 0 auto;
+        &:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+    &_show {
+        display: block;
+    }
+}
+
+.active {
+    border: 4px solid #f8be00; 
+  }

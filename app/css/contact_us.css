@@ -1,0 +1,83 @@
+.contact_us {
+  text-align: center;
+  background-image: url(../images/contact_us_bg.jpg);
+  background-color: #000;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cu_tittle {
+  padding-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: "Raleway - Extra Bold";
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.96px;
+}
+.cu_tittle h3 {
+  display: inline;
+  padding-bottom: 15px;
+  border-bottom: 4px solid #f4c60b;
+}
+form {
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 118px auto 0 auto;
+  padding-bottom: 60px;
+  max-width: 500px;
+}
+input[type=text],
+input[type=email] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 240px;
+  padding: 20px;
+  color: #fff;
+  font-family: "Raleway - Extra Bold";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.28px;
+  border: 3px solid #ffffff;
+  background: transparent;
+}
+input[type=text] {
+  float: left;
+}
+input[type=email] {
+  float: right;
+}
+textarea {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  height: 220px;
+  width: 100%;
+  color: #fff;
+  font-family: "Raleway - Extra Bold";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.28px;
+  border: 3px solid #ffffff;
+  background: transparent;
+  resize: none;
+}
+input[type=submit] {
+  float: left;
+  padding: 20px 52px;
+  color: #000;
+  font-family: "Raleway - Extra Bold";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.28px;
+  background-color: #f4c60b;
+  border: none;
+  cursor: pointer;
+}

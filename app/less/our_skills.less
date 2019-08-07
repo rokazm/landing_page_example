@@ -1,0 +1,42 @@
+@import "mixins";
+
+.our_skills {
+    height: 715px; 
+	max-width: 1600px;
+	text-align: center;
+    background-image: url(../images/our_skills_bg.jpg);
+	background-color: #fff;
+	background-size: cover; 
+	background-position: center;
+    background-repeat: no-repeat;
+    &_holder {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 204px;
+        margin-bottom: 122px;
+    }
+    &_skill {        
+        margin: 0 78px;  
+        h4 {
+            margin-top: 56px;
+            color: #000000;
+            font-family: Raleway;
+            font-size: 24px;
+            font-weight: 300;            
+            letter-spacing: 0.48px;
+        }
+    }
+}
+
+#bar {
+    &_75 {
+        .bar_dimens;
+    }
+    &_90 {
+        .bar_dimens;
+    }
+    &_30 {
+        .bar_dimens;
+    }
+}
